@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Landing Page</title>
+  <meta name="description" content="Discover and enjoy a world of music on BeatPal. Listen to the latest tracks, rate and review your favorites, and find new songs to elevate your musical journey. Join our community of music enthusiasts today.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+<div class="bg-blue-600">
+  <div class="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
+
+    <!-- Branding -->
+    <h2 class="text-xl text-white font-semibold mb-4 md:mb-0">BeatPal</h2>
+
+    <!-- Middle - Search bar and menu items -->
+    <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 w-full md:w-auto mb-4 md:mb-0 order-2 md:order-1">
+
+      <!-- Search Bar -->
+      <div class="relative w-56 md:w-auto mb-4 md:mb-0">
+        <input type="text" class="rounded-md px-4 py-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300" placeholder="Search...">
+        <!-- Search Icon (No change) -->
+      </div>
+
+      <!-- Menu items -->
+      <div class="flex space-x-6">
+        <a href="#" class="text-white hover:underline">Music</a>
+        <a href="#" class="text-white hover:underline">Members</a>
+        <a href="#" class="text-white hover:underline">Lists</a>
+      </div>
+    </div>
+
+    <!-- Right - Login & Sign Up buttons -->
+    <div class="space-x-6 order-1 md:order-2">
+      <a href="login.html" class="text-white hover:underline">Log in</a>
+      <a href="signup.html" class="bg-white px-5 py-2 rounded-md text-blue-600 font-semibold hover:bg-gray-200">Sign up</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ... [header code] ... -->
+
+<!-- Introduction Section -->
+<div class="bg-gray-50 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+
+    <!-- Left - Introduction Text -->
+    <div class="w-1/2">
+      <h class="text-4xl font-bold text-blue-600 mb-4"><big>Join BeatPal: where melodies meet memories.</big></h>
+      <br>
+      <br>
+
+      <p class="text-lg text-gray-700">Chronicle your music journey, share reviews, and curate playlists in a thriving community. Elevate your listening experience in music's newest social hub.</p>
+      <!-- You can add more text or a CTA button here if needed -->
+      <br>
+      <br>
+
+      <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors duration-200">Create Account</a>
+    </div>
+
+
+
+    <!-- Right - Video Showcase -->
+    <div class="w-1/2">
+      <div class="relative overflow-hidden rounded-lg shadow-xl">
+        <!-- The video -->
+        <video autoplay loop muted playsinline class="w-full h-auto">
+          <source src="videoo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-bold mb-8 text-left">Beatpal Lets You…</h2>
+
+    <!-- Grid of Boxes -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+      <!-- Box 1 -->
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M21,12.418V11A9,9,0,0,0,3,11v1.418A5,5,0,0,0,5,22H7V12H5V11a7,7,0,0,1,14,0v1H17V22h2a5,5,0,0,0,2-9.582Z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Rediscover your rhythm. Seamlessly log, curate, and organize every favorite tune in your vast music collection.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <!-- ...similar structure... -->
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M24,3.5c0,.83-.67,1.5-1.5,1.5H1.5c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H22.5c.83,0,1.5,.67,1.5,1.5ZM6.5,20H1.5c-.83,0-1.5,.67-1.5,1.5s.67,1.5,1.5,1.5H6.5c.83,0,1.5-.67,1.5-1.5s-.67-1.5-1.5-1.5ZM14.5,11H1.5c-.83,0-1.5,.67-1.5,1.5s.67,1.5,1.5,1.5H14.5c.83,0,1.5-.67,1.5-1.5s-.67-1.5-1.5-1.5Z"/></svg>
+
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Share your thoughts and insights on the latest tracks. Let the world know how you feel with personalized reviews.</p>
+      </div>
+
+      <!-- Box 3 -->
+      <!-- ...similar structure... -->
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm1,18h-2V9.371l-1.583,1.626-1.433-1.395,3.507-3.603h1.509v12Z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Craft the perfect mood with custom playlists. Combine, arrange, and enjoy your favorite tunes.</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M12,24C5.383,24,0,18.617,0,12S5.383,0,12,0s12,5.383,12,12-5.383,12-12,12Zm3.397-8.197l-2.397-4.076V5h-2v7.272l2.673,4.544,1.725-1.014Z"/></svg>
+
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Stay ahead of the curve. Bookmark tracks for later and never miss out on the latest hits from your favorite artists.</p>
+      </div>
+
+      <!-- Box 5 -->
+
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Dive into our popular sections. Discover new tracks, emerging artists, and hidden gems curated just for you.</p>
+      </div>
+
+      <!-- Box 6 -->
+      <div class="relative p-6 bg-gray-50 rounded-lg shadow-md h-72"> <!-- Increased height with h-72 -->
+        <!-- Icon - Positioned to the top left -->
+        <div class="absolute top-4 left-4 bg-blue-100 rounded-full p-4">
+          <!-- Replace with your icon. This is a placeholder SVG -->
+          <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M24,12c0-1.696-.86-3.191-2.168-4.073,.301-1.548-.148-3.213-1.347-4.413-1.199-1.199-2.864-1.648-4.413-1.347-.882-1.308-2.377-2.168-4.073-2.168s-3.191,.86-4.073,2.168c-1.548-.301-3.214,.148-4.413,1.347-1.199,1.199-1.648,2.864-1.347,4.413-1.308,.882-2.168,2.377-2.168,4.073s.86,3.191,2.168,4.073c-.301,1.548,.148,3.214,1.347,4.413,1.199,1.199,2.864,1.648,4.413,1.347,.882,1.308,2.377,2.168,4.073,2.168s3.191-.86,4.073-2.168c1.548,.301,3.214-.148,4.413-1.347,1.199-1.199,1.648-2.864,1.347-4.413,1.308-.882,2.168-2.377,2.168-4.073Zm-12.091,3.419c-.387,.387-.896,.58-1.407,.58s-1.025-.195-1.416-.585l-2.782-2.696,1.393-1.437,2.793,2.707,5.809-5.701,1.404,1.425-5.793,5.707Z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 mt-16">Feature Title 1</h3> <!-- Added mt-16 to make space for the icon -->
+        <p class="text-gray-600 text-left">Get to know your musical tastes better. Unlock detailed stats about your listening habits, favorite genres, and top artists.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+
+<div class="bg-gray-50 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <!-- Left - Introduction Text -->
+    <div class="w-1/2">
+      <h class="text-4xl font-bold text-blue-600 mb-4"><big>Discover a World of Music</big></h>
+      <br>
+      <br>
+      <p class="text-lg text-gray-700">Immerse yourself in a universe of melodies, where music transcends boundaries and creates unforgettable experiences. Explore a diverse catalog of songs and artists, connect with music enthusiasts, and embark on a sonic journey like never before.</p>
+      <!-- You can add more text or a CTA button here if needed -->
+      <br>
+      <br>
+      <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors duration-200">Create Account</a>
+    </div>
+    <!-- Right - Video Showcase -->
+    <div class="w-full md:w-1/2">
+      <div class="relative overflow-hidden rounded-lg shadow-xl">
+        <!-- The login form iframe -->
+        <iframe class="w-full h-full" src="login.html" frameborder="0" title="Login Form"></iframe>
+      </div>
+    </div>
+    
+</div>
+
+</div> 
+
+<!-- Main content -->
+<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 mt-12">
+  <div class="text-center">
+    <h2 class="text-base text-indigo-800 font-semibold tracking-wide uppercase">Welcome</h2>
+    <p class="mt-1 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900">Manage and Listen to Your Music</p>
+    <p class="max-w-xl mt-5 mx-auto text-xl text-gray-700">Discover a new way of organizing your music collection with ease and style.</p>
+  </div>
+  <div class="mt-10">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Feature 1 -->
+      <div class="pt-6 text-center bg-white overflow-hidden shadow rounded-lg">
+        <div class="space-y-8 p-6">
+          <video class="mx-auto h-32 w-32" autoplay loop muted>
+            <source src="vidd1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3 class="text-lg leading-6 font-medium text-gray-900">Upload</h3>
+          <p class="text-base text-gray-500">Effortlessly upload your favorite tracks and albums with a drag-and-drop feature.</p>
+        </div>
+      </div>
+      <!-- Feature 2 -->
+      <div class="pt-6 text-center bg-white overflow-hidden shadow rounded-lg">
+        <div class="space-y-8 p-6">
+          <video class="mx-auto h-32 w-32" autoplay loop muted>
+            <source src="vidd2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3 class="text-lg leading-6 font-medium text-gray-900">Organize</h3>
+          <p class="text-base text-gray-500">Create boards, set moods, and organize your music in a way that's reflective of your personal taste.</p>
+        </div>
+      </div>
+      <!-- Feature 3 -->
+      <div class="pt-6 text-center bg-white overflow-hidden shadow rounded-lg">
+        <div class="space-y-8 p-6">
+          <video class="mx-auto h-32 w-32" autoplay loop muted>
+            <source src="vidd3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3 class="text-lg leading-6 font-medium text-gray-900">Listen</h3>
+          <p class="text-base text-gray-500">Experience an ad-free, high-quality playback of your favorite tunes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Call to action -->
+  <div class="mt-12 text-center">
+    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+      Start Now
+    </a>
+  </div>
+</div>
+<!-- ... [previous code] ... -->
+
+<!-- Testimonials -->
+<div class="mt-16 py-16 bg-gray-50 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">What our users say</h2>
+      <p class="mt-1 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">Testimonials</p>
+    </div>
+    <div class="mt-8 flex flex-wrap justify-center space-y-12 lg:space-y-0 lg:space-x-8">
+      <!-- Testimonial 1 -->
+      <div class="w-full lg:w-1/3 px-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-600">"I've never been more organized with my music. This platform is a game-changer!"</p>
+          <div class="mt-6">
+            <h3 class="text-lg font-semibold">Alex Doe</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="w-full lg:w-1/3 px-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-600">"High-quality playback and the design is so intuitive. Highly recommended!"</p>
+          <div class="mt-6">
+            <h3 class="text-lg font-semibold">Charlie Smith</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="w-full lg:w-1/3 px-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-600">"A seamless experience. Uploading my tracks and organizing them has never been easier."</p>
+          <div class="mt-6">
+            <h3 class="text-lg font-semibold">Jordan Taylor</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="bg-blue-600">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap justify-between">
+      <!-- Branding / Logo -->
+      <div class="flex items-center mb-4 lg:mb-0">
+        <img src="musicap.jpeg" alt="Logo" class="h-10 w-10">
+        <h2 class="text-xl text-white font-semibold ml-3">Music Inspired</h2>
+      </div>
+      <!-- Links -->
+      <div class="space-x-6">
+        <a href="#" class="text-white hover:underline">Privacy</a>
+        <a href="#" class="text-white hover:underline">Terms</a>
+        <a href="#" class="text-white hover:underline">Support</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
